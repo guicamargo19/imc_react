@@ -8,10 +8,13 @@ A partir dessas informações o índice é calculado da seguinte maneira: divide
 
 É retornado também a classificação na tabela:
 
-IMC <18,5kg/m2 - baixo peso.
-IMC >18,5 até 24,9kg/m2 - eutrofia (peso adequado)
-IMC ≥25 até 29,9kg/m2 - sobrepeso.
-IMC >30,0kg/m2 até 34,9kg/m2 - obesidade grau 1.
+<ul>
+    <li>IMC menor que 18,5kg/m2 - baixo peso.</li>
+    <li>IMC entre 18,5kg/m2 e 24,9kg/m2 - eutrofia (peso adequado)</li>
+    <li>IMC entre 25,0kg/m2 e 29,9kg/m2 - sobrepeso.</li>
+    <li>IMC entre 30,0kg/m2 e 39,9kg/m2 - obesidade grau 2.</li>
+    <li>IMC maior que 40,0kg/m2 - obesidade grave.</li>
+</ul>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
