@@ -1,0 +1,68 @@
+.form {
+    display: block;
+  }
+  
+  .inputs {
+    display: flex;
+  }
+  
+  .altura__block label,
+  .peso__block label {
+    display: block;
+    color: #1f5eaf;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 12px;
+  }
+  
+  .altura__block input,
+  .peso__block input {
+    width: 130px;
+    padding: 6px 10px;
+    border: 1px solid #1f5eaf;
+    border-radius: 10px;
+    color: #707070;
+    font-weight: bold;
+  }
+  
+  .peso__block {
+    margin-left: 26px;
+  }
+  
+  .buttons button{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1f5eaf;
+    padding: 13px 30px 13px 16px;
+    border: none;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #113b72;
+  }
+  
+  .buttons .clear {
+    background-color: #dc4500;
+    margin-left: 30px;
+  }
+  
+  .buttons .clear:hover {
+    background-color: #9d3809;
+  }
+  
+  .buttons button i {
+    margin-left: 20px;
+  }
+  
