@@ -16,11 +16,11 @@
   }
   
   .footer__links__item i {
-    color: #1f5eaf;
+    color: var(--corPrincipal);
   }
   
   .footer__main__text,
   .footer__last__text {
     padding-bottom: 12px;
-    color: #707070;
+    color: var(--corText);
   }

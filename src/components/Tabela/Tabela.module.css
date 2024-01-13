@@ -7,20 +7,20 @@
   
   .table__imc thead tr th{
     text-align: left;
-    background-color: #1f5eaf;
-    color: #fff;
+    background-color: var(--corPrincipal);
+    color: var(--corBranca);
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
   }
   
   .table__imc tbody {
-    color: #707070;
+    color: var(--corText);
     font-weight: bold;
   }
   
   .table__imc tbody td {
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid var(--corLine);
     padding-left: 20px;
   }
   
@@ -28,5 +28,5 @@
     color: #1f5eaf;
     letter-spacing: 1px;
     font-weight: normal;
-    border-bottom: 2px solid #707070;
+    border-bottom: 2px solid var(--corText);
   }
