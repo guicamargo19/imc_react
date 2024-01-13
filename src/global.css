@@ -16,14 +16,15 @@
 }
 
 h2 {
-  width: 250px;
+  width: 220px;
   margin-top: 24px;
   border-radius: 30px;
   font-size: 24px;
   color: var(--corBranca);
   background-color: var(--corSecundaria);
   padding: 12px;
-  text-align: center;
+  padding-left: 16px;
+  text-align: left;
   text-transform: uppercase;
 }
 

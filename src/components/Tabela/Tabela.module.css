@@ -30,3 +30,7 @@
     font-weight: normal;
     border-bottom: 2px solid var(--corText);
   }
+
+  span {
+    padding-left: 12px;
+  }
