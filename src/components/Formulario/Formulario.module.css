@@ -34,14 +34,14 @@
   .buttons button{
     display: inline-block;
     vertical-align: middle;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 13px;
     color: var(--corBranca);
     margin-bottom: 8px;
     text-align: center;
     text-decoration: none;
     background-color: var(--corPrincipal);
-    padding: 13px 30px 13px 16px;
+    padding: 13px 30px 13px 13px;
     border: none;
     font-weight: bold;
     margin-top: 12px;

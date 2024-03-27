@@ -1,5 +1,6 @@
 import styles from './Tabela.module.css';
 
+// eslint-disable-next-line react/prop-types
 const Tabela = ({imc}) => {
     return (
       <>

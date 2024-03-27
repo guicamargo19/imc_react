@@ -1,5 +1,6 @@
 import styles from './Formulario.module.css';
 
+// eslint-disable-next-line react/prop-types
 const Formulario = ({setAAltura, setOPeso, calculaOIMC}) => {
     return (
         <form className={styles.form}>
