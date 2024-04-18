@@ -1,9 +1,9 @@
 .text h1 {
-    font-size: 20px;
+    font-size: 24px;
     color: var(--corPrincipal);
     font-weight: bolder;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 24px;
   }
   
   .text p {

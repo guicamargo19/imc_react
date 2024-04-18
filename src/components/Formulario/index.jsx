@@ -1,7 +1,7 @@
 import styles from './Formulario.module.css';
 
 // eslint-disable-next-line react/prop-types
-const Formulario = ({setAAltura, setOPeso, calculaOIMC}) => {
+const Formulario = ({setAAltura, setOPeso, calculaOIMC, clean}) => {
     return (
         <form className={styles.form}>
           <div className={styles.inputs}>
@@ -16,7 +16,7 @@ const Formulario = ({setAAltura, setOPeso, calculaOIMC}) => {
           </div>
           <div className={styles.buttons}>
             <button onClick={calculaOIMC} type="button">Calcular <i className="bi bi-caret-right"></i></button>
-            <button className={styles.clear} type="reset">Limpar <i className="bi bi-caret-right"></i></button>
+            <button onClick={clean} className={styles.clear} type="reset">Limpar <i className="bi bi-caret-right"></i></button>
           </div>
         </form>
     )

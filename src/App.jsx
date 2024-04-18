@@ -57,11 +57,25 @@ function App() {
     }
   }
 
+  const clean = () => {
+      const magrezaLine = document.querySelector("#magreza");
+      const normal = document.querySelector("#normal");
+      const sobrepeso = document.querySelector("#sobrepeso");
+      const obesidade = document.querySelector("#obesidade");
+      const grave = document.querySelector("#grave");
+      magrezaLine.classList.remove('active');
+      normal.classList.remove("active");
+      sobrepeso.classList.remove("active");
+      obesidade.classList.remove("active");
+      grave.classList.remove("active");
+    return setIMC('');
+  }
+
   return (
     <>
       <div className="container">
         <Cabecalho />
-        <Formulario calculaOIMC={calculaIMC} setAAltura={e => setAltura(e.target.value)} setOPeso={e => setPeso(e.target.value)}/>
+        <Formulario clean={clean} calculaOIMC={calculaIMC} setAAltura={e => setAltura(e.target.value)} setOPeso={e => setPeso(e.target.value)}/>
         <Tabela imc={ IMC }/>
       </div>
       <Rodape />

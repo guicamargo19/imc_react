@@ -1,6 +1,10 @@
 import styles from './Rodape.module.css';
 
 const Rodape = () => {
+
+    const getYear = () =>
+        new Date().getFullYear();
+
     return (
         <footer className={styles.footer}>
             <div>
@@ -17,10 +21,10 @@ const Rodape = () => {
                     </li>
                 </ul>
                 <p className={styles.footer__main__text}>
-                    ® 2024 Guilherme Camargo. Todos os direitos reservados.
-                </p>
-                <p className={styles.footer__last__text}>
-                    Página desenvolvida no curso de Full Stack Python na EBAC - Escola Britânica de Artes Criativas e Tecnologia.              
+                    ® {getYear()} - 
+                    <a href="https://portfolio-pink-omega-63.vercel.app/">
+                        <strong>Portfólio Guilherme Camargo</strong>
+                    </a> - Todos os direitos reservados.
                 </p>
             </div>
         </footer>

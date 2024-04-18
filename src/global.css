@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -18,7 +18,7 @@
 h2 {
   width: 220px;
   margin-top: 24px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 24px;
   color: var(--corBranca);
   background-color: var(--corSecundaria);
@@ -29,13 +29,14 @@ h2 {
 }
 
 :root {
-  --corPrincipal: #1f5eaf;
-  --corPrincipalHover: #113b72;
-  --corSecundaria: #dc4500;
-  --corSecundariaHover: #9d3809;
+  --corPrincipal: #0a3d62;
+  --corPrincipalHover: #3c6382;
+  --corSecundaria: #e55039;
+  --corSecundariaHover: #eb2f06;
   --corBranca: #fff;
   --corActive: rgb(201, 239, 201);
   --corText: #707070;
+  --corTextDarker: #414040;
   --corLine:  #e7e7e7;
 }
 

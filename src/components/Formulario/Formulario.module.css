@@ -1,68 +1,75 @@
 .form {
-    display: block;
-  }
-  
-  .inputs {
-    display: flex;
-  }
-  
-  .altura__block label,
-  .peso__block label {
-    display: block;
-    color: var(--corPrincipal);
-    font-weight: bold;
-    font-size: 13px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    padding-top: 12px;
-  }
-  
-  .altura__block input,
-  .peso__block input {
-    width: 130px;
-    padding: 6px 10px;
-    border: 1px solid var(--corPrincipal);
-    border-radius: 10px;
-    color: var(--corText);
-    font-weight: bold;
-  }
-  
-  .peso__block {
-    margin-left: 26px;
-  }
-  
-  .buttons button{
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 10px;
-    font-size: 13px;
-    color: var(--corBranca);
-    margin-bottom: 8px;
-    text-align: center;
-    text-decoration: none;
-    background-color: var(--corPrincipal);
-    padding: 13px 30px 13px 13px;
-    border: none;
-    font-weight: bold;
-    margin-top: 12px;
-    margin-bottom: 32px;
-    cursor: pointer;
-  }
-  
-  .buttons button:hover {
-    background-color: var(--corPrincipalHover);
-  }
-  
-  .buttons .clear {
-    background-color: var(--corSecundaria);
-    margin-left: 30px;
-  }
-  
-  .buttons .clear:hover {
-    background-color: var(--corSecundariaHover);
-  }
-  
-  .buttons button i {
-    margin-left: 20px;
-  }
-  
+  display: block;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.altura__block label,
+.peso__block label {
+  display: block;
+  color: var(--corPrincipal);
+  font-weight: bold;
+  font-size: 13px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-top: 12px;
+}
+
+.altura__block input,
+.peso__block input {
+  width: 130px;
+  padding: 6px 10px;
+  border: 1px solid var(--corPrincipal);
+  border-radius: 8px;
+  color: var(--corText);
+  font-weight: bold;
+  outline-color: var(--corPrincipal);;
+}
+
+.peso__block {
+  margin-left: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+}
+
+.buttons button {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  font-size: 13px;
+  width: 134px;
+  text-decoration: none;
+  color: var(--corBranca);
+  background-color: var(--corPrincipal);
+  padding: 12px 32px 12px 12px;
+  border: none;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: var(--corPrincipalHover);
+}
+
+.buttons .clear {
+  background-color: var(--corSecundaria);
+  margin-left: 30px;
+}
+
+.buttons .clear:hover {
+  background-color: var(--corSecundariaHover);
+}
+
+.buttons button i {
+  margin-left: 20px;
+}
