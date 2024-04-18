@@ -2,7 +2,7 @@
 
 ## Apresentação do projeto
 
-
+https://github.com/guicamargo19/imc_react/assets/133445061/1fbd5211-7b7a-477b-94cc-3b557725c321
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
