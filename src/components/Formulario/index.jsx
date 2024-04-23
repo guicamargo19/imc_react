@@ -15,8 +15,8 @@ const Formulario = ({setAAltura, setOPeso, calculaOIMC, clean}) => {
             </div>
           </div>
           <div className={styles.buttons}>
-            <button onClick={calculaOIMC} type="button">Calcular <i className="bi bi-caret-right"></i></button>
             <button onClick={clean} className={styles.clear} type="reset">Limpar <i className="bi bi-caret-right"></i></button>
+            <button onClick={calculaOIMC} type="button">Calcular <i className="bi bi-caret-right"></i></button>
           </div>
         </form>
     )

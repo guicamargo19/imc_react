@@ -61,9 +61,13 @@
   background-color: var(--corPrincipalHover);
 }
 
-.buttons .clear {
+.buttons[type=button] {
   background-color: var(--corSecundaria);
   margin-left: 30px;
+}
+
+.buttons .clear {
+  background-color: var(--corSecundaria);
 }
 
 .buttons .clear:hover {
