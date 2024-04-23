@@ -40,6 +40,8 @@ span {
 @media screen and (max-width: 768px) {
   
   .table__imc {
+    width: 336px;
+    margin: 0 auto;
     max-width: 100%;
     font-size: 12px;
   }

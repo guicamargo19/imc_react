@@ -45,7 +45,7 @@
   justify-content: space-between;
   border-radius: 8px;
   font-size: 13px;
-  width: 134px;
+  width: 130px;
   text-decoration: none;
   color: var(--corBranca);
   background-color: var(--corPrincipal);
@@ -72,4 +72,13 @@
 
 .buttons button i {
   margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .inputs,
+  .buttons {
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+  }
 }
