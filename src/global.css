@@ -45,3 +45,9 @@ input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
         margin: 0;
 }
+
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 90%;
+  }
+}

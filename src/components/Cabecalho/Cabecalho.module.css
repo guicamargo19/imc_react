@@ -6,10 +6,16 @@
     margin-top: 24px;
   }
   
-  .text p {
+.text p {
     color: var(--corText);
     margin-bottom: 10px;
     font-size: 13px;
     font-weight: bold;
     text-align: justify;
   }
+ 
+@media only screen and (max-width: 767px) {
+    .text {
+      max-width: 100%;
+    }
+}
