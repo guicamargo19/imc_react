@@ -61,9 +61,9 @@
   background-color: var(--corPrincipalHover);
 }
 
-.buttons[type=button] {
+.buttons #calc {
   background-color: var(--corSecundaria);
-  margin-left: 30px;
+  margin-left: 30px !important;
 }
 
 .buttons .clear {
@@ -79,10 +79,16 @@
 }
 
 @media screen and (max-width: 768px) {
-  .inputs,
+  .inputs {
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+  }
+
   .buttons {
     margin: 0 auto;
     justify-content: center;
     width: 100%;
+    gap: 30px;
   }
 }
